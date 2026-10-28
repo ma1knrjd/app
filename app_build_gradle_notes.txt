@@ -1,0 +1,6 @@
+В проекте Android Studio (Empty Activity + Kotlin + Jetpack Compose) убедитесь, что Material 3 включён. В dependencies должна быть зависимость:
+implementation("androidx.compose.material3:material3")
+Также нужны стандартные зависимости шаблона:
+implementation("androidx.activity:activity-compose")
+implementation("androidx.compose.ui:ui")
+implementation("androidx.compose.ui:ui-tooling-preview")
